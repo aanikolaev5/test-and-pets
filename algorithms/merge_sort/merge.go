@@ -1,15 +1,8 @@
-package main
+package merge
 
 import "fmt"
 
-func main() {
-	var orig []int = []int{3, 7, 8, 2, 4, 6, 1, 5}
-	fmt.Println("Start!")
-	fmt.Printf("Original slice: %v\n", orig)
-	mergeSort(orig)
-}
-
-func mergeSort(unsort []int) {
+func MergeSort(unsort []int) {
 	fmt.Printf("Merge sorting: %v\n", sortingMerge(unsort))
 }
 
