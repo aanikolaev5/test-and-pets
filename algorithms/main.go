@@ -5,6 +5,7 @@ import (
 
 	ins "github.com/aanikolaev5/test-and-pets/algorithms/insertion_sort"
 	m "github.com/aanikolaev5/test-and-pets/algorithms/merge_sort"
+	q "github.com/aanikolaev5/test-and-pets/algorithms/quick_sort"
 )
 
 func main() {
@@ -12,4 +13,5 @@ func main() {
 	fmt.Printf("Original slice: %v\n", orig)
 	m.MergeSort(orig)
 	ins.InsertionSort(orig)
+	q.QuickSort(orig)
 }
